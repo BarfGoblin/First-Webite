@@ -44,6 +44,10 @@
 .row {
   margin: 1vh;
   bottom: 0px;
+  height: 20vh;
+  width: scale;
+  position: absolute;
+  bottom: 0;
 }
 
 .row:after {
