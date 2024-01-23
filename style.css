@@ -5,11 +5,26 @@
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  margin: 1vh
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.mySlides img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.column img {
+  padding: 0.5vh;
+  border-radius: 2vh;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -22,7 +37,7 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -55,12 +70,8 @@
   top: 0;
 }
 
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
+.row {
+  bottom: 0px;
 }
 
 .row:after {
