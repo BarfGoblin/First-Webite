@@ -11,6 +11,7 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  width: 90%
 }
 
 .mySlides img {
@@ -20,6 +21,7 @@
   height: 75vh;
   width: scale;
   object-fit: contain;
+  max-width: 100%;
 }
 
 .column img {
