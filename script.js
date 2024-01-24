@@ -1,24 +1,38 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+// let lastKnownScrollPosition = 0;
+// let ticking = false;
+// let lastKnownScroll = 0;
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+// function doSomething(scrollPos) {
+//     let scrollDiff = scrollPos - lastKnownScroll
+//     let gridContainer = document.querySelector(".grid-container");
+//     if (scrollDiff < 0) {
+//         gridContainer.setAttribute("class", "grid-container scroll-motion-up")
+//     } else {
+//         gridContainer.setAttribute("class", "grid-container scroll-motion-down")
+//     }
+//     lastKnownScroll = scrollPos;
+// }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+// function throttle(fn, wait) {
+//     let minScrollTime = 100;
+//     let time = Date.now();
+//     return function () {
+//         if ((time + wait - Date.now()) < 0) {
+//             fn();
+//             time = Date.now();
+//         }
+//     }
+// }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) { slideIndex = 1 }
-  if (n < 1) { slideIndex = slides.length }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex - 1].style.display = "block";
+// document.addEventListener("scroll", (event) => {
+//     lastKnownScrollPosition = window.scrollY;
 
-}
+//     if (!ticking) {
+//         window.requestAnimationFrame(() => {
+//             doSomething(lastKnownScrollPosition);
+//             ticking = false;
+//         });
+
+//         ticking = true;
+//     }
+// });

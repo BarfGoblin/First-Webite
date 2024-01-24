@@ -2,78 +2,475 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Test</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <main class="wrapper">
+        <div class="grid-container">
 
-  <!-- Container for the image gallery -->
-  <div class="container">
+            <div class="grid-element">
+                <img srcset="\media\Img001(Phone).jpeg 320w, \media\Img001(Small).jpeg 480w, \media\Img001(Medium).jpeg 768w, \media\Img001(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img001(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img002(Phone).jpeg 320w, \media\Img002(Small).jpeg 480w, \media\Img002(Medium).jpeg 768w, \media\Img002(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img002(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img003(Phone).jpeg 320w, \media\Img003(Small).jpeg 480w, \media\Img003(Medium).jpeg 768w, \media\Img003(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img003(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img004(Phone).jpeg 320w, \media\Img04(Small).jpeg 480w, \media\Img004(Medium).jpeg 768w, \media\Img004(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img004(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img005(Phone).jpeg 320w, \media\Img05(Small).jpeg 480w, \media\Img005(Medium).jpeg 768w, \media\Img005(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img005(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img006(Phone).jpeg 320w, \media\Img06(Small).jpeg 480w, \media\Img006(Medium).jpeg 768w, \media\Img006(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img006(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img007(Phone).jpeg 320w, \media\Img07(Small).jpeg 480w, \media\Img007(Medium).jpeg 768w, \media\Img007(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img007(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img008(Phone).jpeg 320w, \media\Img08(Small).jpeg 480w, \media\Img008(Medium).jpeg 768w, \media\Img008(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img008(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img009(Phone).jpeg 320w, \media\Img09(Small).jpeg 480w, \media\Img009(Medium).jpeg 768w, \media\Img009(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img009(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img010(Phone).jpeg 320w, \media\Img010(Small).jpeg 480w, \media\Img010(Medium).jpeg 768w, \media\Img010(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img010(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img011(Phone).jpeg 320w, \media\Img011(Small).jpeg 480w, \media\Img011(Medium).jpeg 768w, \media\Img011(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img011(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img012(Phone).jpeg 320w, \media\Img012(Small).jpeg 480w, \media\Img012(Medium).jpeg 768w, \media\Img012(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img012(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img013(Phone).jpeg 320w, \media\Img013(Small).jpeg 480w, \media\Img013(Medium).jpeg 768w, \media\Img013(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img013(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img014(Phone).jpeg 320w, \media\Img014(Small).jpeg 480w, \media\Img014(Medium).jpeg 768w, \media\Img014(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img014(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img015(Phone).jpeg 320w, \media\Img015(Small).jpeg 480w, \media\Img015(Medium).jpeg 768w, \media\Img015(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img015(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img016(Phone).jpeg 320w, \media\Img016(Small).jpeg 480w, \media\Img016(Medium).jpeg 768w, \media\Img016(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img016(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img017(Phone).jpeg 320w, \media\Img017(Small).jpeg 480w, \media\Img017(Medium).jpeg 768w, \media\Img017(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img017(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img018(Phone).jpeg 320w, \media\Img018(Small).jpeg 480w, \media\Img018(Medium).jpeg 768w, \media\Img018(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img018(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img019(Phone).jpeg 320w, \media\Img019(Small).jpeg 480w, \media\Img019(Medium).jpeg 768w, \media\Img019(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img019(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img020(Phone).jpeg 320w, \media\Img020(Small).jpeg 480w, \media\Img020(Medium).jpeg 768w, \media\Img020(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img020(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img021(Phone).jpeg 320w, \media\Img021(Small).jpeg 480w, \media\Img021(Medium).jpeg 768w, \media\Img021(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img021(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img022(Phone).jpeg 320w, \media\Img022(Small).jpeg 480w, \media\Img022(Medium).jpeg 768w, \media\Img022(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img022(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img023(Phone).jpeg 320w, \media\Img023(Small).jpeg 480w, \media\Img023(Medium).jpeg 768w, \media\Img023(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img023(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img024(Phone).jpeg 320w, \media\Img024(Small).jpeg 480w, \media\Img024(Medium).jpeg 768w, \media\Img024(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img024(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img025(Phone).jpeg 320w, \media\Img025(Small).jpeg 480w, \media\Img025(Medium).jpeg 768w, \media\Img025(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img025(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img026(Phone).jpeg 320w, \media\Img026(Small).jpeg 480w, \media\Img026(Medium).jpeg 768w, \media\Img026(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img026(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img027(Phone).jpeg 320w, \media\Img027(Small).jpeg 480w, \media\Img027(Medium).jpeg 768w, \media\Img027(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img027(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img028(Phone).jpeg 320w, \media\Img028(Small).jpeg 480w, \media\Img028(Medium).jpeg 768w, \media\Img028(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img028(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img029(Phone).jpeg 320w, \media\Img029(Small).jpeg 480w, \media\Img029(Medium).jpeg 768w, \media\Img029(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img029(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img030(Phone).jpeg 320w, \media\Img030(Small).jpeg 480w, \media\Img030(Medium).jpeg 768w, \media\Img030(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img030(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img031(Phone).jpeg 320w, \media\Img031(Small).jpeg 480w, \media\Img031(Medium).jpeg 768w, \media\Img031(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img031(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img032(Phone).jpeg 320w, \media\Img032(Small).jpeg 480w, \media\Img032(Medium).jpeg 768w, \media\Img032(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img032(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img033(Phone).jpeg 320w, \media\Img033(Small).jpeg 480w, \media\Img033(Medium).jpeg 768w, \media\Img033(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img033(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img034(Phone).jpeg 320w, \media\Img034(Small).jpeg 480w, \media\Img034(Medium).jpeg 768w, \media\Img034(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img034(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img035(Phone).jpeg 320w, \media\Img035(Small).jpeg 480w, \media\Img035(Medium).jpeg 768w, \media\Img035(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img035(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img036(Phone).jpeg 320w, \media\Img036(Small).jpeg 480w, \media\Img036(Medium).jpeg 768w, \media\Img036(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img036(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img037(Phone).jpeg 320w, \media\Img037(Small).jpeg 480w, \media\Img037(Medium).jpeg 768w, \media\Img037(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img037(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img038(Phone).jpeg 320w, \media\Img038(Small).jpeg 480w, \media\Img038(Medium).jpeg 768w, \media\Img038(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img038(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img039(Phone).jpeg 320w, \media\Img039(Small).jpeg 480w, \media\Img039(Medium).jpeg 768w, \media\Img039(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img039(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img040(Phone).jpeg 320w, \media\Img040(Small).jpeg 480w, \media\Img040(Medium).jpeg 768w, \media\Img040(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img040(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img041(Phone).jpeg 320w, \media\Img041(Small).jpeg 480w, \media\Img041(Medium).jpeg 768w, \media\Img041(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img041(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img042(Phone).jpeg 320w, \media\Img042(Small).jpeg 480w, \media\Img042(Medium).jpeg 768w, \media\Img042(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img042(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img043(Phone).jpeg 320w, \media\Img043(Small).jpeg 480w, \media\Img043(Medium).jpeg 768w, \media\Img043(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img043(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img044(Phone).jpeg 320w, \media\Img044(Small).jpeg 480w, \media\Img044(Medium).jpeg 768w, \media\Img044(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img044(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img045(Phone).jpeg 320w, \media\Img045(Small).jpeg 480w, \media\Img045(Medium).jpeg 768w, \media\Img045(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img045(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img046(Phone).jpeg 320w, \media\Img046(Small).jpeg 480w, \media\Img046(Medium).jpeg 768w, \media\Img046(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img046(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img047(Phone).jpeg 320w, \media\Img047(Small).jpeg 480w, \media\Img047(Medium).jpeg 768w, \media\Img047(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img047(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img048(Phone).jpeg 320w, \media\Img048(Small).jpeg 480w, \media\Img048(Medium).jpeg 768w, \media\Img048(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img048(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img049(Phone).jpeg 320w, \media\Img049(Small).jpeg 480w, \media\Img049(Medium).jpeg 768w, \media\Img049(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img049(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img050(Phone).jpeg 320w, \media\Img050(Small).jpeg 480w, \media\Img050(Medium).jpeg 768w, \media\Img050(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img050(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img051(Phone).jpeg 320w, \media\Img051(Small).jpeg 480w, \media\Img051(Medium).jpeg 768w, \media\Img051(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img051(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img052(Phone).jpeg 320w, \media\Img052(Small).jpeg 480w, \media\Img052(Medium).jpeg 768w, \media\Img052(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img052(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img053(Phone).jpeg 320w, \media\Img053(Small).jpeg 480w, \media\Img053(Medium).jpeg 768w, \media\Img053(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img053(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img054(Phone).jpeg 320w, \media\Img054(Small).jpeg 480w, \media\Img054(Medium).jpeg 768w, \media\Img054(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img054(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img055(Phone).jpeg 320w, \media\Img055(Small).jpeg 480w, \media\Img055(Medium).jpeg 768w, \media\Img055(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img055(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img056(Phone).jpeg 320w, \media\Img056(Small).jpeg 480w, \media\Img056(Medium).jpeg 768w, \media\Img056(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img056(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img057(Phone).jpeg 320w, \media\Img057(Small).jpeg 480w, \media\Img057(Medium).jpeg 768w, \media\Img057(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img057(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img058(Phone).jpeg 320w, \media\Img058(Small).jpeg 480w, \media\Img058(Medium).jpeg 768w, \media\Img058(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img058(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img059(Phone).jpeg 320w, \media\Img059(Small).jpeg 480w, \media\Img059(Medium).jpeg 768w, \media\Img059(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img059(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img060(Phone).jpeg 320w, \media\Img060(Small).jpeg 480w, \media\Img060(Medium).jpeg 768w, \media\Img060(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img060(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img061(Phone).jpeg 320w, \media\Img061(Small).jpeg 480w, \media\Img061(Medium).jpeg 768w, \media\Img061(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img061(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img062(Phone).jpeg 320w, \media\Img062(Small).jpeg 480w, \media\Img062(Medium).jpeg 768w, \media\Img062(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img062(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img063(Phone).jpeg 320w, \media\Img063(Small).jpeg 480w, \media\Img063(Medium).jpeg 768w, \media\Img063(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img063(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img064(Phone).jpeg 320w, \media\Img064(Small).jpeg 480w, \media\Img064(Medium).jpeg 768w, \media\Img064(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img064(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img065(Phone).jpeg 320w, \media\Img065(Small).jpeg 480w, \media\Img065(Medium).jpeg 768w, \media\Img065(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img065(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img066(Phone).jpeg 320w, \media\Img066(Small).jpeg 480w, \media\Img066(Medium).jpeg 768w, \media\Img066(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img066(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img067(Phone).jpeg 320w, \media\Img067(Small).jpeg 480w, \media\Img067(Medium).jpeg 768w, \media\Img067(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img067(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img068(Phone).jpeg 320w, \media\Img068(Small).jpeg 480w, \media\Img068(Medium).jpeg 768w, \media\Img068(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img068(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img069(Phone).jpeg 320w, \media\Img069(Small).jpeg 480w, \media\Img069(Medium).jpeg 768w, \media\Img069(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img069(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img070(Phone).jpeg 320w, \media\Img070(Small).jpeg 480w, \media\Img070(Medium).jpeg 768w, \media\Img070(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img070(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img071(Phone).jpeg 320w, \media\Img071(Small).jpeg 480w, \media\Img071(Medium).jpeg 768w, \media\Img071(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img071(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img072(Phone).jpeg 320w, \media\Img072(Small).jpeg 480w, \media\Img072(Medium).jpeg 768w, \media\Img072(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img072(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img073(Phone).jpeg 320w, \media\Img073(Small).jpeg 480w, \media\Img073(Medium).jpeg 768w, \media\Img073(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img073(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img074(Phone).jpeg 320w, \media\Img074(Small).jpeg 480w, \media\Img074(Medium).jpeg 768w, \media\Img074(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img074(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img075(Phone).jpeg 320w, \media\Img075(Small).jpeg 480w, \media\Img075(Medium).jpeg 768w, \media\Img075(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img075(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img076(Phone).jpeg 320w, \media\Img076(Small).jpeg 480w, \media\Img076(Medium).jpeg 768w, \media\Img076(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img076(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img077(Phone).jpeg 320w, \media\Img077(Small).jpeg 480w, \media\Img077(Medium).jpeg 768w, \media\Img077(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img077(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img078(Phone).jpeg 320w, \media\Img078(Small).jpeg 480w, \media\Img078(Medium).jpeg 768w, \media\Img078(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img078(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img079(Phone).jpeg 320w, \media\Img079(Small).jpeg 480w, \media\Img079(Medium).jpeg 768w, \media\Img079(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img079(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img080(Phone).jpeg 320w, \media\Img080(Small).jpeg 480w, \media\Img080(Medium).jpeg 768w, \media\Img080(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img080(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img081(Phone).jpeg 320w, \media\Img081(Small).jpeg 480w, \media\Img081(Medium).jpeg 768w, \media\Img081(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img081(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img082(Phone).jpeg 320w, \media\Img082(Small).jpeg 480w, \media\Img082(Medium).jpeg 768w, \media\Img082(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img082(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img083(Phone).jpeg 320w, \media\Img083(Small).jpeg 480w, \media\Img083(Medium).jpeg 768w, \media\Img083(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img083(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img084(Phone).jpeg 320w, \media\Img084(Small).jpeg 480w, \media\Img084(Medium).jpeg 768w, \media\Img084(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img084(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img085(Phone).jpeg 320w, \media\Img085(Small).jpeg 480w, \media\Img085(Medium).jpeg 768w, \media\Img085(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img085(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img086(Phone).jpeg 320w, \media\Img086(Small).jpeg 480w, \media\Img086(Medium).jpeg 768w, \media\Img086(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img086(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img087(Phone).jpeg 320w, \media\Img087(Small).jpeg 480w, \media\Img087(Medium).jpeg 768w, \media\Img087(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img087(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img088(Phone).jpeg 320w, \media\Img088(Small).jpeg 480w, \media\Img088(Medium).jpeg 768w, \media\Img088(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img088(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img089(Phone).jpeg 320w, \media\Img089(Small).jpeg 480w, \media\Img089(Medium).jpeg 768w, \media\Img089(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img089(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img090(Phone).jpeg 320w, \media\Img090(Small).jpeg 480w, \media\Img090(Medium).jpeg 768w, \media\Img090(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img090(Phone).jpeg 320w" />
+            </div>
+            <div class="grid-element">
+                <img srcset="\media\Img091(Phone).jpeg 320w, \media\Img091(Small).jpeg 480w, \media\Img091(Medium).jpeg 768w, \media\Img091(Large).jpeg 1080w"
+                    sizes="((max-width: 320w) and (min-width: 479w)) 320w, ((max-width: 480w) and (min-width:767w)) 480w, ((min-width: 768w max-width: 1079w)) 768w, 1080w"
+                    src="\media\Img091(Phone).jpeg 320w" />
+            </div>
 
-    <!-- Full-width images with number text -->
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-      <img src="\media\portrait\SA_POR_ORG_001.jpeg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-      <img src="\media\portrait\SA_POR_ORG_002.jpeg">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-      <img src="\media\portrait\SA_POR_ORG_003.jpeg">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-      <img src="\media\portrait\SA_POR_ORG_004.jpeg">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">5 / 6</div>
-      <img src="\media\portrait\SA_POR_ORG_005.jpeg">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-      <img src="\media\portrait\SA_POR_ORG_006.jpeg">
-    </div>
-  </div>
-
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="\media\portrait\SA_POR_ORG_001.jpeg" style="width:100%" onclick="currentSlide(1)"
-        alt="SA1">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="\media\portrait\SA_POR_ORG_002.jpeg" style="width:100%" onclick="currentSlide(2)"
-        alt="SA2">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="\media\portrait\SA_POR_ORG_003.jpeg" style="width:100%" onclick="currentSlide(3)"
-        alt="SA3">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="\media\portrait\SA_POR_ORG_004.jpeg" style="width:100%" onclick="currentSlide(4)"
-        alt="SA4">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="\media\portrait\SA_POR_ORG_005.jpeg" style="width:100%" onclick="currentSlide(5)"
-        alt="SA5">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="\media\portrait\SA_POR_ORG_006.jpeg" style="width:100%" onclick="currentSlide(6)"
-        alt="SA6">
-    </div>
-
-  </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

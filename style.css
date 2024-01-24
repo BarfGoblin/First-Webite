@@ -1,75 +1,53 @@
-* {
-  box-sizing: border-box;
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    column-gap: 1vh;
+    row-gap: 1vh;
+    max-width: 100vh;
+    margin: 0 auto;
+    transition: 300ms;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-  margin: 1vh;
+.grid-element img {
+    width: 98%;
+    height: auto;
+    border-radius: .5vh;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-  width: 90%
+@media screen and (min-width: 479px) {
+    .grid-container {
+        grid-template-columns: 2fr 2fr;
+    }
 }
 
-.mySlides img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 75vh;
-  width: scale;
-  object-fit: contain;
-  max-width: 100%;
+@media screen and (min-width: 767px) {
+    .grid-container {
+        grid-template-columns: 2fr 2fr 2fr;
+    }
 }
 
-.column img {
-  padding: 0.5vh;
-  border-radius: 1.5vh;
+@media screen and (min-width: 1079px) {
+    .grid-container {
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
 }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
+/* .scroll-motion-up {
+    animation-name: example;
+    animation-duration: 2s;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 2vh;
-  padding: 1vh 1vh;
-  position: absolute;
-  top: 0;
+.scroll-motion-down {
+    animation-name: example;
+    animation-duration: 2s
 }
 
-.row {
-  margin: 1vh;
-  bottom: 0px;
-  height: 20vh;
-  width: scale;
-  position: absolute;
-  bottom: 0;
-}
+@keyframes example {
+    from {
+        row-gap: .5vh;
+    }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
+    to {
+        row-gap: 2vh;
+    }
+} */
